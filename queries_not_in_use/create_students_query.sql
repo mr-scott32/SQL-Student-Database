@@ -1,7 +1,7 @@
 -- SQLite
 CREATE TABLE student (
     StudentID INTEGER PRIMARY KEY AUTOINCREMENT,
-    FirstName varchar(40),
-    Surname varchar(60),
+    FirstName varchar(30),
+    Surname varchar(50),
     Grade int
     );
